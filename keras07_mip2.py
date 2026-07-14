@@ -6,9 +6,12 @@ from keras.layers import Dense
 import numpy as np
 
 #1 데이터
-
+# x = np.array([[1,2,3,4,5,6],[7,8,9,10,11,12]])
+# x = x.transpose()
+# x = x.T 으로 행열 변경가능
 x = np.array([[1,7],[2,8],[3,9],[4,10],[5,11],[6,12]]) #x = (6,2)
 print(f"{x.shape}")
+#exit() 여기까지만 실행
 y = np.array([1,2,3,4,5,6])         
 print(f"{y.shape}")
 
