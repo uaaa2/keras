@@ -17,7 +17,7 @@ y = np.array([1,2,3,4,5,6])
 #2 모델구성
 model = Sequential()            #순차적인 모델을 만드는 객체
 #output 차원, input 차원 수 / 하이퍼 파라미터 튜닝
-
+#input_dim은 처음만 쓰고 나머지는 생략해도된다.
 model.add(Dense(6, input_dim=1))#0
 model.add(Dense(7))#0
 model.add(Dense(4))#0
