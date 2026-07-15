@@ -4,13 +4,7 @@ print(tf.__version__)
 from keras.models import Sequential
 from keras.layers import Dense
 import numpy as np
-#output 추가
 
-#전체 데이터훈련이 아닌 70%만 훈련, 나머지는 평가용 
-#Statement seems to have no effect : 정확도 1.0이 만점 
-#평가용 데이터가 훈련용 데이터보다 높으면 잘못된 가능성이 높다.
-#treining data , test data 
-#   
 
 #1 데이터
 x = np.array([[1,2,3,4,5,6,7,8,9,10],
