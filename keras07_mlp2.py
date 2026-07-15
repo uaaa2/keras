@@ -14,11 +14,10 @@ print(f"{x.shape}")
 #exit() 여기까지만 실행
 y = np.array([1,2,3,4,5,6])         
 print(f"{y.shape}")
-exit()
 
 
 #2 모델구성
-model = Sequential()    
+model = Sequential()   
 model.add(Dense(6, input_shape=(2, )))    
 model.add(Dense(7))
 model.add(Dense(6))
