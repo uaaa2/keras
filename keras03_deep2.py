@@ -38,4 +38,3 @@ model.fit(x,y,epochs=100)# x y 데이터 훈련을 epochs번 하겠다.
 #모델 객체가 3번에서 훈련한 값들로 
 result = model.predict(np.array([7]))
 print('7의 예측값 : ', result)
-
